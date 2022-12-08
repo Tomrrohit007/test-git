@@ -3,17 +3,17 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 9px;
-  padding: 0px 20px;
   align-items: center;
+  min-width: 80vw;
+  padding: 0px 12px;
 }
-.app-icon {
-  width: 30px;
-  height: 30px;
+.app-icon{
+  width: 25px;
+  height: 25px;
 }
 .history-details {
   display: flex;
   flex-direction: row;
-  width: 70vw;
   align-items: center;
 }
 .title,
@@ -44,4 +44,28 @@
 }
 .title-container {
   display: flex;
+}
+
+@media all and (max-width:767px) {
+  .app-container{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 50px;
+
+  }
+  .history-details{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .list{
+    justify-content: space-between;
+    padding: 0px;
+  }
 }

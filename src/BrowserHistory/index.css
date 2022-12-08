@@ -33,6 +33,7 @@
 }
 .history-list {
   display: flex;
+  min-width:80vw ;
   padding: 12px;
   flex-direction: column;
   justify-content: center;
@@ -57,4 +58,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media all and (max-width:767px) {
+  .main-container{
+    height: auto;
+  }
 }
