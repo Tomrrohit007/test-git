@@ -5,17 +5,17 @@ const History = props => {
   const {timeAccessed, logoUrl, title, domainUrl, id} = eachHistory
   const onClickDelete = () => {
     deleteHistory(id)
-  }
+    }
   return (
     <li className="list">
       <div className="history-details">
         <p className="time-accessed">{timeAccessed}</p>
         <div className='app-container'>
-        <img src={logoUrl} className="app-icon" alt="domain logo" />
-        <div className="title-container">
-          <p className="title">{title}</p>
-          <p className="domainUrl">{domainUrl}</p>
-        </div>
+          <img src={logoUrl} id="appIcon" alt="domain logo" />
+          <div className="title-container">
+            <p className="title">{title}</p>
+            <p className="domainUrl">{domainUrl}</p>
+          </div>
         </div>
       </div>
       <div>      
@@ -26,7 +26,7 @@ const History = props => {
         testid="delete"
       >
         <img
-          src="https://assets.ccbp.in/frontend/react-js/delete-img.png "
+          src="https://assets.ccbp.in/frontend/react-js/delete-img.png"
           className="delete-icon"
           alt="delete icon"
         />

@@ -63,4 +63,7 @@
   .main-container{
     height: auto;
   }
+  .history-list{
+    margin-top: 20px;
+  }
 }
