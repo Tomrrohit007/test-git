@@ -1,7 +1,7 @@
-import Counter from './components/Counter'
+import Gallery from './components/Gallery'
 
 import './App.css'
 
-const App = () => <Counter />
+const App = () => <Gallery />
 
 export default App
