@@ -1,0 +1,28 @@
+.item{
+    border: 1px solid #b5b7c4;
+    border-radius: 10px;
+    padding: 4px 12px;
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.purpose, .datetime{
+    font-size: 12px;
+    font-weight: 500;
+}
+.datetime{
+    color: #b5b7c4;
+}
+.star-img{
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+}
+.star-btn{
+    background: transparent;
+    border: 0px;
+}
+
+

@@ -1,7 +1,7 @@
-import Gallery from './components/Gallery'
+import Appointments from './components/Appointments'
 
 import './App.css'
 
-const App = () => <Gallery />
+const App = () => <Appointments />
 
 export default App
