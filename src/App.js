@@ -1,7 +1,7 @@
-import DigitalTimer from './components/DigitalTimer'
+import Stopwatch from './components/Stopwatch'
 
 import './App.css'
 
-const App = () => <DigitalTimer />
+const App = () => <Stopwatch />
 
 export default App

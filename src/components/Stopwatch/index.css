@@ -1,0 +1,157 @@
+.main-container{
+    background-image: url("https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 130vh;
+
+}
+.card-in-card{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    height: 500px;
+    justify-content: center;
+
+}
+.heading{
+    font-size: 40px;
+}
+.card{
+    box-shadow:0px 4px 16px 0px #bfbfbf;
+    height: 250px;
+    width: 350px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+}
+.para{
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 500;
+}
+.card-heading{
+    display: flex;
+    width: 32%;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo{
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+    align-items: center;
+}
+.timer{
+    font-size: 40px;
+    font-weight: 500;
+}
+.btns{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+.btn{
+    height: 28px;
+    width: 70px;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+.start{
+    background-color: #1db05f;
+}
+.stop{
+    background-color: #ef0d36;
+}
+.reset{
+    background-color: #eaa800;
+}
+
+
+@media all and (max-width:767px){
+    .main-container{
+        background-image: url("https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png");
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 150px;
+        color: #333333;
+    }
+    .heading{
+        font-size: 40px;
+    }
+    .card{
+        box-shadow:0px 4px 16px 0px #bfbfbf;
+        height: 250px;
+        width: 350px;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: #ffffff;
+    }
+    .para{
+        font-size: 24px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-weight: 500;
+    }
+    .card-heading{
+        display: flex;
+        width: 32%;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .logo{
+        height: 24px;
+        width: 24px;
+        margin-right: 5px;
+        align-items: center;
+    }
+    .timer{
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .btns{
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+    }
+    .btn{
+        height: 28px;
+        width: 70px;
+        border-radius: 5px;
+        border: 0px;
+        font-size: 14px;
+        font-weight: 600;
+        color: white;
+        cursor: pointer;
+    }
+    .start{
+        background-color: #1db05f;
+    }
+    .stop{
+        background-color: #ef0d36;
+    }
+    .reset{
+        background-color: #eaa800;
+    }
+    .card-in-card{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
