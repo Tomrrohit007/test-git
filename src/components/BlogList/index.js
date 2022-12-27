@@ -28,7 +28,10 @@ class BlogList extends Component {
     const {blogData, isLoading} = this.state
     return (
       <div className="blog-list-container">
-        {isLoading?<TailSpin/>:blogData.map(eachItem=><BlogItem eachItem = {eachItem} key={eachItem.id}/>)}
+        {isLoading?<div testid="loader">
+        <TailSpin/>
+        </div>:
+        blogData.map(eachItem=><BlogItem eachItem = {eachItem} key={eachItem.id}/>)}
       </div>
     );
   }
