@@ -35,8 +35,8 @@ class BlogItemDetails extends Component{
                 return <div className="detail">
                    <h1 className="heading">{title}</h1> 
                    <div className="bottom-section">
-                    <p className="author"><img className="avatar" src={avatarUrl} alt=""/>{author}</p>
-                    <img className="img image" src={imageUrl}/>
+                    <p className="author"><img className="avatar" src={avatarUrl} alt="avatar"/>{author}</p>
+                    <img className="img image" src={imageUrl} alt="title"/>
                     <p className="title para">{content}</p>
                     </div>
                    
@@ -44,7 +44,9 @@ class BlogItemDetails extends Component{
             }
             return(
                 <div className="main">
-                {isLoading?<TailSpin/>:contentx()}
+                {isLoading?<div testid="loader">
+                <TailSpin/>
+                </div>:contentx()}
                 </div>
                 
             )
